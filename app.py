@@ -177,7 +177,7 @@ def inject_css():
 # ------------------------------------------------------------------
 # 2. 데이터 / 모델
 # ------------------------------------------------------------------
-DATA_FILE = "songs_for_app_v2.csv"
+DATA_FILE = "songs_for_app.csv"
 REQUIRED_COLS = ["track_id", "track_name", "artists", "genre_tags", "release_year", "popularity", "mood"] + \
                 sorted(set(REC_FEATURES + CLF_FEATURES))
 
